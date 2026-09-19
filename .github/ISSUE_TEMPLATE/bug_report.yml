@@ -1,0 +1,41 @@
+name: Bug Report
+description: Report an issue or unexpected behavior in AViGPT
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue. Please provide enough details so we can reproduce it.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, PyTorch version, and hardware (e.g. Windows 11, Python 3.10, PyTorch 2.2, NVMe SSD / CPU)
+      placeholder: e.g. Ubuntu 22.04 / Windows 11, Python 3.11, PyTorch 2.3, RTX 3060 / i7 CPU
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Clear and concise steps to reproduce the behavior. Include code snippets or prompt inputs.
+      placeholder: |
+        1. Run `python -c "from autonomous_bus import ..."`
+        2. Execute query: "..."
+        3. Observe error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or Traceback
+      description: Paste relevant terminal logs or tracebacks here.
+      render: shell

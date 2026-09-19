@@ -1,0 +1,30 @@
+name: Feature Request
+description: Propose an enhancement, new hardware bus token, or architectural extension for AViGPT
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement for AViGPT.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What limitation are you hitting, or what use case does this enable?
+      placeholder: Describe the problem clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution or architectural change (e.g. RoPE, GQA, Paged KV cache, new bus token).
+      placeholder: Detailed description of the feature or architectural change.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've explored.

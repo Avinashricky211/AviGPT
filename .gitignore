@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+avv/
+gccp/
+
+# SQLite databases & runtime storage
+*.db
+*.db-wal
+*.db-shm
+
+# Large model weight archives (use Hugging Face Hub for weight distribution)
+*.pt
+*.bin
+*.safetensors
+*.gguf
+*.zip
+
+# Proprietary data & environment keys
+.env
+*.jsonl
+*.log
