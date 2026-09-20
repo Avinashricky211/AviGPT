@@ -8,6 +8,7 @@ Created and pretrained from scratch by **Avinash Ricky Yadlapalli**.
 [![Parameters: 183M](https://img.shields.io/badge/Parameters-183M-purple.svg)](AViGPT_Architecture_Report.md)
 [![Storage Latency: 1.18ms](https://img.shields.io/badge/Storage_Latency-1.18ms-green.svg)](AViGPT_Architecture_Report.md)
 [![Hardware: 0.4GB RAM](https://img.shields.io/badge/RAM_Footprint-0.4GB-orange.svg)](AViGPT_Architecture_Report.md)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-AViGPT-yellow)](https://huggingface.co/AvinashRicky/AViGPT)
 
 ---
 
