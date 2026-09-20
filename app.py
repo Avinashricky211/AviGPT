@@ -58,7 +58,8 @@ def load_system():
     # Priority search paths for AViGPT models
     base_dir = os.path.dirname(os.path.abspath(__file__))
     search_paths = [
-        os.path.join(base_dir, "AViGPT_v2_HF"),
+        "D:/coding/Newgpt/AViGPT",
+        os.path.join(base_dir, "AViGPT"),
         os.path.join(base_dir, "model"),
         "D:/coding/Newgpt/AViGPT_v2_HF",
         "D:/coding/Newgpt/ckpt_v2_hardware_bus/AViGPT_v2_HF",
