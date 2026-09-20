@@ -2,7 +2,8 @@
 
 **Author:** Avinash Ricky Yadlapalli  
 **Date:** September 2026  
-**Repository:** https://github.com/Avinashricky211/AViGPT  
+**DOI:** https://doi.org/10.5281/zenodo.22856047  
+**Repository:** https://github.com/Avinashricky211/AviGPT  
 **Status:** Technical Report  
 
 ---
@@ -205,8 +206,9 @@ AViGPT indicates that small language models do not need to scale parameter count
   title={AViGPT: Decoupling Neural Reasoning from Parametric Memory via a Sub-Millisecond Native NVMe Hardware Bus},
   author={Avinash Ricky Yadlapalli},
   year={2026},
-  journal={AViGPT Technical Report},
-  howpublished={\url{https://github.com/Avinashricky211/AViGPT}},
-  url={https://github.com/Avinashricky211/AViGPT}
+  journal={Zenodo},
+  doi={10.5281/zenodo.22856047},
+  howpublished={\url{https://doi.org/10.5281/zenodo.22856047}},
+  url={https://github.com/Avinashricky211/AviGPT}
 }
 ```

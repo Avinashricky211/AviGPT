@@ -4,6 +4,7 @@
 
 Created and pretrained from scratch by **Avinash Ricky Yadlapalli**.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22856047.svg)](https://doi.org/10.5281/zenodo.22856047)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Parameters: 183M](https://img.shields.io/badge/Parameters-183M-purple.svg)](AViGPT_Architecture_Report.md)
 [![Storage Latency: 1.18ms](https://img.shields.io/badge/Storage_Latency-1.18ms-green.svg)](AViGPT_Architecture_Report.md)
@@ -131,9 +132,10 @@ For complete mathematical details, experimental methodology, and telemetry logs,
   title={AViGPT: Decoupling Neural Reasoning from Parametric Memory via a Sub-Millisecond Native NVMe Hardware Bus},
   author={Avinash Ricky Yadlapalli},
   year={2026},
-  journal={AViGPT Technical Report},
-  howpublished={\url{https://github.com/Avinashricky211/AViGPT}},
-  url={https://github.com/Avinashricky211/AViGPT}
+  journal={Zenodo},
+  doi={10.5281/zenodo.22856047},
+  howpublished={\url{https://doi.org/10.5281/zenodo.22856047}},
+  url={https://github.com/Avinashricky211/AviGPT}
 }
 ```
 
